@@ -7,6 +7,23 @@ This plugin adds:
 - **The TrimCarbon connector**, a remote MCP server at `https://mcp.trimcarbon.com/mcp`.
 - **The `flight-emissions` skill**, which tells Claude which TrimCarbon tool fits each question.
 
+## Install
+
+In Claude Code:
+
+```
+/plugin install trimcarbon --marketplace trimcarbon/claude
+```
+
+On Claude Code before 2.1.275, add the marketplace first:
+
+```
+/plugin marketplace add trimcarbon/claude
+/plugin install trimcarbon@trimcarbon
+```
+
+In the Claude apps, add the connector only: https://trimcarbon.com/ai has the steps.
+
 ## What you can ask
 
 - "What's the CO₂ of 50 hours a year in a Cessna 172?"

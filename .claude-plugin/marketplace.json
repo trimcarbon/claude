@@ -1,0 +1,15 @@
+{
+	"name": "trimcarbon",
+	"description": "TrimCarbon's plugin for Claude: the CO₂ of general-aviation flying.",
+	"owner": {
+		"name": "Raccoon Ventures Inc.",
+		"email": "contact@trimcarbon.com",
+		"url": "https://trimcarbon.com"
+	},
+	"plugins": [
+		{
+			"name": "trimcarbon",
+			"source": "."
+		}
+	]
+}

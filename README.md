@@ -22,7 +22,7 @@ On Claude Code before 2.1.275, add the marketplace first:
 /plugin install trimcarbon@trimcarbon
 ```
 
-In the Claude apps, add the connector only: https://trimcarbon.com/ai has the steps.
+In the Claude apps, add the connector from the Claude directory: https://claude.ai/directory/00ea2390-b554-4aa7-b477-1b6b73b676ce. To add it by hand, follow the steps on https://trimcarbon.com/ai.
 
 ## What you can ask
 
